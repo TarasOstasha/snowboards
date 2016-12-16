@@ -4,7 +4,30 @@ footer {
 .container__footer {
   margin: 0 auto;
 }
-
+.footer__infoText {
+  margin: 100px 0 150px;
+}
+.title__footer {
+  font-size: 18px;
+  font-family: 'FiraSans_Bold';
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+.info__footer {
+  font-family: 'FiraSans_Light';
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 30px;
+  a {
+    color: darken(#ffffff, 20%);
+    transition: 0.9s ease-in-out; //ease-in-out — медленный старт и финиш
+    &:hover {
+      text-decoration: none;
+      color: darken(#ffffff, 40%);
+    }
+  }
+}
 .autors {
   font-family: 'FiraSans_Light';
   font-size: 14px;
