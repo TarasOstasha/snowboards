@@ -13,7 +13,8 @@ function videoplay() {
     });
 }
 videoplay();
-// $('.more__info').addClass('animated bounceOutUp'); НЕ ПРАЦЮЭ
+setTimeout(function() {$('.more__info').addClass('animated slideInDown'); }, 3000);
+
 
 // var btnVideo = document.querySelector('.btn__video');
 // btnVideo.addEventListener('click', function () {
